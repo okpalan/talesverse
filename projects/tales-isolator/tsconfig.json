@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+      "target": "ES2020",                          // Target modern JavaScript for better performance
+      "module": "CommonJS",                       // CommonJS is widely used for Node.js packages
+      "declaration": true,                        // Generate .d.ts files for type definitions
+      "declarationMap": true,                     // Generate sourcemaps for .d.ts files
+      "sourceMap": true,                          // Generate sourcemaps for debugging
+      "outDir": "./dist",                         // Output directory for compiled files
+      "rootDir": "./src",                         // Root directory of source files
+      "strict": true,                             // Enable all strict type-checking options
+      "esModuleInterop": true,                    // Enable compatibility with CommonJS modules
+      "skipLibCheck": true,                       // Skip type checking of declaration files
+      "forceConsistentCasingInFileNames": true,   // Ensure consistent casing in file names
+      "moduleResolution": "node",                 // Use Node.js module resolution strategy
+      "resolveJsonModule": true,                  // Allow importing .json files
+      "experimentalDecorators": true,             // Enable experimental support for decorators
+      "emitDecoratorMetadata": true               // Emit metadata for decorators
+    },
+    "include": [
+      "src/**/*"                                  // Include all TypeScript files in the src directory
+    ],
+    "exclude": [
+      "node_modules",                            // Exclude node_modules directory
+      "**/*.test.ts"                             // Exclude test files from the build
+    ]
+  }
+  
