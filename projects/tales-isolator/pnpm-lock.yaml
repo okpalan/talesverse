@@ -1,0 +1,31 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      reflect-metadata:
+        specifier: ^0.2.2
+        version: 0.2.2
+    devDependencies:
+      '@types/reflect-metadata':
+        specifier: ^0.0.5
+        version: 0.0.5
+
+packages:
+
+  '@types/reflect-metadata@0.0.5':
+    resolution: {integrity: sha512-+tH+0HWHs23S4h0dl0zG8ZXIo6O9YHWOtqcOWFcBSSFS93LqIi3xfv7XXQ0eABYxXBFQxKJR49xunLNnU5he9g==}
+
+  reflect-metadata@0.2.2:
+    resolution: {integrity: sha512-urBwgfrvVP/eAyXx4hluJivBKzuEbSQs9rKWCrCkbSxNv8mxPcUZKeuoF3Uy4mJl3Lwprp6yy5/39VWigZ4K6Q==}
+
+snapshots:
+
+  '@types/reflect-metadata@0.0.5': {}
+
+  reflect-metadata@0.2.2: {}
