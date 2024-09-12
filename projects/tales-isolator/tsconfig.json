@@ -15,10 +15,12 @@
       "resolveJsonModule": true,                  // Allow importing .json files
       "experimentalDecorators": true,             // Enable experimental support for decorators
       "emitDecoratorMetadata": true               // Emit metadata for decorators
+      
     },
     "include": [
-      "src/**/*"                                  // Include all TypeScript files in the src directory
-    ],
+      "src/**/*"  
+      ],
+                                      // Include all TypeScript files in the src director  ],
     "exclude": [
       "node_modules",                            // Exclude node_modules directory
       "**/*.test.ts"                             // Exclude test files from the build
